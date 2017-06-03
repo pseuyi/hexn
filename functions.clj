@@ -5,5 +5,6 @@
 (defn multiply-10 [x] (* x 10))
 
 ; Write a recursive function that sums a list of numbers without recur.
+(defn sum-list [x] (* x))
 
 ; Write a recursive function that sums a list of numbers using loop and recur.
