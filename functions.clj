@@ -11,9 +11,9 @@
     (+ nums (sum-list(rest nums)))))
 
 ; Write a recursive function that sums a list of numbers using loop and recur.
-(defn sum-list [n]
-  (loop [n numbers
-    sum 0]
+(defn sum-list [nums]
+  (loop [n nums
+         sum 0]
     (if (empty? n)
     total
     (recur (rest n) (+ total (first n))))))
