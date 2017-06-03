@@ -6,12 +6,12 @@
 
 ; Write a recursive function that sums a list of numbers without recur.
 (defn sum-list [nums]
-  (if (== 1 (count n))
-    n
-    (+ n (sum-list(rest n)))))
+  (if (== 1 (count nums))
+    nums
+    (+ nums (sum-list(rest nums)))))
 
 ; Write a recursive function that sums a list of numbers using loop and recur.
-(defn sum-list [nums]
+(defn sum-list [n]
   (loop [n numbers
     sum 0]
     (if (empty? n)
