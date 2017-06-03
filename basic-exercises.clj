@@ -3,7 +3,9 @@
 
 ; Pass a list to (type ) to return:
 ; clojure.lang.PersistentList$EmptyList
+(type ())
 ; clojure.lang.PersistentList
+(type (list 1 2 3))
 
 ; Write a boolean if function that returns the string:
 ; "This is true!" when true
