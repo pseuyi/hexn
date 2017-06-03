@@ -16,4 +16,4 @@
          sum 0]
     (if (empty? n)
     total
-    (recur (rest n) (+ total (first n))))))
+    (recur (rest n) (+ sum (first n))))))
