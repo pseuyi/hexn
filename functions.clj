@@ -15,5 +15,5 @@
   (loop [n nums
          sum 0]
     (if (empty? n)
-    total
+    sum
     (recur (rest n) (+ sum (first n))))))
